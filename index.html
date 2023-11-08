@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>COUNTER APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading-title">People Counter App</h1>
+    <h2 id="count-el" class="counter">0</h2>
+  
+<div class="add-savebtn">
+  <li>
+  <button id="increment-btn" class="increment-button" onclick="increment()">INCREMENT</button>
+  </li>
+   <li>
+  <button id="save-btn" class="save-button"  onclick="save()">SAVE</button>
+      </li>
+</div>
+
+<div>
+  <p id="save-el">Prevoius Entries: </p>
+</div>
+  
+<button id="total-btn" class="total-button" onclick="totalBtn()">TOTAL</button>
+<p id="total-el">Total Entries: </p>
+
+
+<script src="main.js"></script>
+</body>
+</html>

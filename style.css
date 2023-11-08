@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: green;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .heading-title{
+    color: white;
+    font-family: tahoma;
+  }
+  
+  .counter{
+    font-size: 50px;
+    color:white;
+  }
+  
+  .increment-button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .save-button{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .total-button{
+    width: 150px;
+    height: 40px;
+    background-color: goldenrod;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  
+  .add-savebtn li{
+    list-style: none;
+  }
+  
